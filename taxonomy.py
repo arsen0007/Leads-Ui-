@@ -1,5 +1,5 @@
 # taxonomy.py
-# SINGLE SOURCE OF TRUTH — FULLY RECONCILED
+# SINGLE SOURCE OF TRUTH — FULLY RECONCILED (AZ READY)
 
 MAIN_CATEGORIES = [
     "Business Law",
@@ -22,9 +22,9 @@ MAIN_CATEGORIES = [
 
 PRACTICE_TO_MAIN = {
 
-    # -------------------------
+    # =========================
     # BUSINESS LAW
-    # -------------------------
+    # =========================
     "business law": "Business Law",
     "business/ commercial": "Business Law",
     "commercial law": "Business Law",
@@ -44,32 +44,37 @@ PRACTICE_TO_MAIN = {
     "cannabis": "Business Law",
     "campaign & political": "Business Law",
     "non-profit/tax exempt": "Business Law",
+    "advertising and marketing": "Business Law",
+    "agency and distributorships": "Business Law",
+    "alcoholic beverage law": "Business Law",
 
-    # -------------------------
+    # =========================
     # CRIMINAL LAW
-    # -------------------------
+    # =========================
     "criminal": "Criminal Law",
     "criminal law": "Criminal Law",
     "white collar crime": "Criminal Law",
+    "traffic law": "Criminal Law",
     "traffic offenses": "Criminal Law",
     "juvenile": "Criminal Law",
     "forfeiture": "Criminal Law",
 
-    # -------------------------
+    # =========================
     # INTELLECTUAL PROPERTY
-    # -------------------------
+    # =========================
     "intellectual property": "Intellectual Property Law",
     "intellectual property law": "Intellectual Property Law",
     "patent/ trademark/ copyright": "Intellectual Property Law",
     "internet law": "Intellectual Property Law",
     "media law": "Intellectual Property Law",
+    "technology and science": "Intellectual Property Law",
     "technology & science": "Intellectual Property Law",
     "privacy law": "Intellectual Property Law",
     "privacy and data security": "Intellectual Property Law",
 
-    # -------------------------
+    # =========================
     # GENERAL CIVIL / CONSUMER
-    # -------------------------
+    # =========================
     "civil litigation": "General Civil / Consumer Law",
     "litigation": "General Civil / Consumer Law",
     "civil rights": "General Civil / Consumer Law",
@@ -78,56 +83,61 @@ PRACTICE_TO_MAIN = {
     "collections": "General Civil / Consumer Law",
     "subrogation": "General Civil / Consumer Law",
 
-    # -------------------------
+    # =========================
     # INSURANCE / MALPRACTICE
-    # -------------------------
+    # =========================
     "insurance": "Insurance / Insurance Law",
     "malpractice": "Insurance / Insurance Law",
     "medical malpractice": "Insurance / Insurance Law",
     "professional liability": "Insurance / Insurance Law",
 
-    # -------------------------
+    # =========================
     # BANKRUPTCY
-    # -------------------------
+    # =========================
     "bankruptcy": "Bankruptcy",
     "debtor & creditor": "Bankruptcy",
     "debtor-creditor": "Bankruptcy",
     "foreclosure": "Bankruptcy",
 
-    # -------------------------
+    # =========================
     # FAMILY LAW
-    # -------------------------
+    # =========================
     "family": "Family Law",
     "family law": "Family Law",
     "guardianships": "Family Law",
     "disability": "Family Law",
 
-    # -------------------------
+    # =========================
     # ESTATE / ELDER
-    # -------------------------
+    # =========================
     "estate planning/ probate/ wills": "Estate Planning / Elder Law",
     "trusts & estates": "Estate Planning / Elder Law",
+    "trusts and estates": "Estate Planning / Elder Law",
+    "wills": "Estate Planning / Elder Law",
     "wills & probate": "Estate Planning / Elder Law",
     "elder": "Estate Planning / Elder Law",
     "elder law": "Estate Planning / Elder Law",
+    "probate and trust law": "Estate Planning / Elder Law",
 
-    # -------------------------
+    # =========================
     # IMMIGRATION
-    # -------------------------
+    # =========================
     "immigration": "Immigration Law",
     "international law & immigration": "Immigration Law",
 
-    # -------------------------
+    # =========================
     # TORTS
-    # -------------------------
+    # =========================
     "torts": "Torts",
     "toxic torts": "Torts",
     "personal injury": "Torts",
     "products liability": "Torts",
+    "injury & wrongful death litigation": "Torts",
+    "wrongful death": "Torts",
 
-    # -------------------------
+    # =========================
     # REAL ESTATE
-    # -------------------------
+    # =========================
     "real estate": "Real Estate Law",
     "real property": "Real Estate Law",
     "real property law": "Real Estate Law",
@@ -142,33 +152,36 @@ PRACTICE_TO_MAIN = {
     "construction": "Real Estate Law",
     "construction law": "Real Estate Law",
     "eminent domain": "Real Estate Law",
+    "water law": "Real Estate Law",
+    "utility law": "Real Estate Law",
 
-    # -------------------------
+    # =========================
     # LABOR / EMPLOYMENT
-    # -------------------------
+    # =========================
     "labor": "Labor / Employment",
     "employment": "Labor / Employment",
     "labor & employment": "Labor / Employment",
     "employee benefits": "Labor / Employment",
     "workers compensation": "Labor / Employment",
     "workers' compensation": "Labor / Employment",
-    "occupational safety & health": "Labor / Employment",
+    "workers' compensation law": "Labor / Employment",
 
-    # -------------------------
+    # =========================
     # MEDIATION / ADR
-    # -------------------------
+    # =========================
     "alternative dispute resolution": "Mediation",
     "dispute resolution": "Mediation",
 
-    # -------------------------
+    # =========================
     # TAXES
-    # -------------------------
+    # =========================
     "tax": "Taxes",
     "taxation": "Taxes",
+    "tax law": "Taxes",
 
-    # -------------------------
+    # =========================
     # GENERAL CLASSIFICATION
-    # -------------------------
+    # =========================
     "administrative law": "General Classification",
     "administrative/ regulatory": "General Classification",
     "appellate": "General Classification",
@@ -192,17 +205,19 @@ PRACTICE_TO_MAIN = {
     "judicial officer": "General Classification",
     "communications": "General Classification",
     "animal law": "General Classification",
+    "agricultural law": "General Classification",
     "agricultural": "General Classification",
     "sports": "General Classification",
     "maritime": "General Classification",
+    "aviation and aerospace": "General Classification",
     "aviation": "General Classification",
-    "military": "Military Law",
     "oil": "General Classification",
     "gas & energy": "General Classification",
+    "veterans law": "General Classification",
 
-    # -------------------------
+    # =========================
     # META / IGNORE BUT MAP
-    # -------------------------
+    # =========================
     "general": "General Classification",
     "none specified": "General Classification",
     "not actively practicing law": "General Classification",
